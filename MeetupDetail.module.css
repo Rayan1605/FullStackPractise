@@ -1,0 +1,108 @@
+.detail {
+    max-width: 2200px;
+    margin: 40px auto;
+    padding: 0;
+    max-height: 4000px;
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-bottom: 2px;
+
+    border: 1px solid black; /* Border around content (image and text) only */
+}
+
+.addplacement {
+
+    margin: 0 !important;  /* Ensures no margin */
+    padding: 0 !important; /* Ensures no padding */
+    text-align: right;     /* Right-aligns the text */
+    line-height: 1 !important; /* Minimal spacing between lines */
+    display: inline-block; /* Ensures the text is treated as inline for tight spacing */
+}
+
+.placementOfDescription {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+.imageContainer {
+    flex: 3;
+}
+
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.textContainer {
+    flex: 2;
+    padding: 2px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.flexContainer1 > :last-child {
+    align-self: flex-end; /* Moves the last item to the complete right side */
+    text-align: right; /* Aligns the text inside to the right */
+    margin-left: 40px;
+
+}
+.textContainer h2 {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.textContainer p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer {
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid black; /* Border around footer only */
+
+}
+
+
+.homeButton {
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.homeButton:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+.footerTitle {
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+.discrip{
+    justify-content: flex-end;
+
